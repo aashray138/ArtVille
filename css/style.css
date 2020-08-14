@@ -1,0 +1,150 @@
+ .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+}
+.dropbtn {
+  background-color: #2f2f2f;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #383838;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: green;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: black;}
+
+#bannerImage{
+    padding-top:75px;
+    padding-bottom:50px;
+    margin-bottom: 20px;
+    text-align:center;
+    color:#f8f8f8;
+    background:url(../img/intro-bg_1.jpg);
+    background-size:cover;
+}
+
+#bannerContent{
+    position:relative;
+    padding-top:6%;
+    padding-bottom:6%;
+    margin-top:12%;
+    margin-bottom:12%;
+    background-color:rgba(0,0,0,0.7);
+    max-width:660px;
+}
+
+.footer { 
+    position: absolute; 
+    bottom:0; 
+    right:0;
+    left:0;
+}
+
+@media (min-width:320px){
+    #autoResize{
+        font-size:12px;
+    }
+}
+@media (min-width:481px){
+    #autoResize{
+        font-size:16px;
+    }
+}
+@media (min-width:641px){
+    #autoResize{
+        font-size:18px;
+    }
+}
+@media (min-width:961px){
+    #autoResize{
+        font-size:20px;
+    }
+}
+@media (min-width:1000px){
+    #autoResize{
+        font-size:26px;
+    }
+}
+
+
+.creditCardForm .CVV {
+    width: 35%;
+}
+
+.creditCardForm #card-number-field {
+    width: 35%;
+}
+
+.creditCardForm #expiration-date {
+    width: 35%;
+}
+
+.creditCardForm #credit_cards {
+    width: 35%;
+    margin-top: 25px;
+    text-align: right;
+}
+
+.creditCardForm #pay-now {
+    width: 35%;
+    margin-top: 25px;
+}
+
+.creditCardForm .payment .btn {
+    width: 35%;
+    margin-top: 3px;
+    font-size: 24px;
+    background-color: #2ec4a5;
+    color: white;
+}
+
+.creditCardForm .payment select {
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.transparent {
+    opacity: 0.2;
+}
+
+@media(max-width: 650px) {
+    .creditCardForm .owner,
+    .creditCardForm .CVV,
+    .creditCardForm #expiration-date,
+    .creditCardForm #credit_cards {
+        width: 100%;
+    }
+    .creditCardForm #credit_cards {
+        text-align: left;
+    }
+}
