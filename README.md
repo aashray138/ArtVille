@@ -7,3 +7,5 @@ Start the apache server and check out the project!
 This is a e-commerce website built with html, css, javascript, php and mysql.
 
 Static page without backend features : https://aashray138.github.io/ArtVille/ 
+
+If you click on the links, the files will download! 
